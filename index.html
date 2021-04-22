@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trangar.com</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+		<script type='text/javascript' src="script\render.js" defer></script>
+		<script type='text/javascript' src="script\main.js" defer></script>
+	</head>
+	
+	<body id="body">
+	
+		<div class="app_container" id="app">
+			<div class="row">
+				<div class="col">
+					<div class="box" id="home">
+						Home
+					</div>
+					
+					<div class="box" id="portfolio">
+						Portfolio
+					</div>
+					
+					<div class="box" id="personal-github">
+						<img src="image/github.png"/>
+						&nbsp;/VictorKoenders
+					</div>
+					
+					<div class="box" id="trangar-github">
+						<img src="image/github.png"/>
+						&nbsp;/Trangar
+					</div>
+					
+					<div id="prev-button" class="box page">
+						Prev
+					</div>
+					
+					<div id="next-button" class="box page">
+						Next
+					</div>
+				</div>
+				
+				<div class="col content" id="instructions">
+					<h1>Instructions</h1>
+					<p>
+						Press the <code>Left</code> and <code>Right</code> arrow keys or the <code>A</code> and <code>D</code> keys <br> to turn the vehicle.
+					</p>
+					<p>
+						Press the <code>Up</code> and <code>Down</code> arrow keys or the <code>W</code> and <code>S</code> keys <br>to accelerate/decelerate.
+					</p>
+					<p>
+						Press the <code>Space bar</code> when the vehicle is on a button to simulate<br> a press.
+					</p>
+					<p>
+						Press the <code>Esc</code> key to show this instruction again.
+					</p>
+					<p>
+						Page can be interacted both via mouse and the vehicle.
+					</p>
+					<img id="parking" src="image/parking.png" />
+				</div>
+				
+				<div class="col content" id="home-content">
+					<h1>Welcome</h1>
+					<p>
+						We're here to help you make your project a success. Trangar helps you flesh out your ideas to put them on paper, or
+						implement them in working code.
+					</p>
+					<p>
+						We have experiences with a very diverse platform range. Some projects include phone apps, websites, high-performance
+						services and even down to embedded firmware. Ranging from well-known programming languages like <a
+							href="https://dotnet.microsoft.com/" target="_blank">C#.NET</a> and <a href="https://www.typescriptlang.org/"
+							target="_blank">Typescript</a>, to lesser known languages like <a href="https://kotlinlang.org/"
+							target="_blank">Kotlin</a> and <a href="https://rust-lang.org" target="_blank">Rust</a>.
+					</p>
+					<p>
+						The programming language is always up to you. Every situation calls for a different solution, and non-project
+						requirements are also important. Do you have some in-house knowledge on a specific language? Then it makes sense to
+						do the project in that language as well. This way, you're never dependent and will always have options in the
+						future.
+					</p>
+					<p>
+						You can contact us by sending an email to <a href="mailto:contact@trangar.com">contact@trangar.com</a>.
+					</p>
+				</div>
+				
+				<div class="col content" id="portfolio-content1">
+					<div class="entry">
+						<div class="image-header">
+							<img src="image/logo_white_knight.svg" alt="Ridder Growing Solutions" />
+							<h3><a href="https://ridder.com">Ridder Growing Solutions</a></h3>
+						</div>
+						<div class="">	
+								<p>Ridder Growing Solutions provides solutions to all challenges in the agricultural industry.
+								This includes Process Automation, Water Treatment and Management systems.</p>
+								<p>Trangar helps develop several products, including <a href="https://ridder.com/ridder-productive">Ridder Productive</a>, <a href="https://ridder.com/ridder-productive-scanning-system">Ridder iScan</a> and <a href="https://ridder.com/ridder-hortimax-go">Ridder HortiMaX-Go!</a>.</p>
+
+						</div>
+					</div>
+					
+					<div class="entry">
+						<div class="image-header">
+							<img src="image/CoffeeByBenjamin.svg" alt="Coffee by Benjamin" />
+							<h3><a href="https://benjamin.coffee">Coffee by Benjamin</a></h3>
+						</div>
+						<div class="body">
+								<p>Coffee by Benjamin is a young startup that aims to bring the freshest coffee to your kitchen.
+								They provide the tools to roast your own coffee at home and allow you to tweak it to exactly the flavor you like.
+								For this to succeed they had to develop a multi-platform solution ranging from an embedded device, phone apps an a website.
+								They approached Trangar to develop their Android application, one that matches their high expectations.</p>
+								<p>Check out the android app in the <a href="https://play.google.com/store/apps/details?id=co.awkward.benjamin&amp;hl=en_AU">Google play store</a>, or their project at <a href="https://benjamin.coffee">benjamin.coffee</a>.</p>
+								<br><br>
+								<br><br>
+						</div>
+					</div>
+					
+					
+				
+				</div>
+				
+				<div class="col content" id="portfolio-content2">
+					<table>
+					<tr>
+					<td width="60%" >
+						<div class="entry">
+							<div class="image-header">
+								<img src="image/pixelflut_logo.svg" alt="Pixelflut @ Campzone" />
+								<h3><a href="https://campzone.nl">Pixelflut @ Campzone</a></h3>
+							</div>
+							<div class="body">
+									Campzone is a massive outdoor gaming event in the Netherlands.
+										It involves gaming, hanging out with friends, making good food, driving around with remote controlled carts, experimenting with smelting metals, and much more.
+										<p>One of those events is called <a href="https://hackaday.com/2020/08/01/playing-the-pixelflut/">Pixelflut</a>.
+										Everyone on this event can access a central server, and tell that server to update a single pixel on a giant screen.
+										This provides an interesting platform for people as an introduction for programming, but also as a competition to see who can take over more pixels on the screen, as well as show full images or sometimes even movies.</p>
+										<p>Trangar has developed one of the fastest Pixelflut servers out there, peaking at 28gbit of data, while remaining a constant memory and CPU footprint for several days.
+										To reach such speeds, we had to develop an application in one of the fastest <img src="/static/rust-logo-blk.svg" alt="" /><a href="https://www.rust-lang.org/">programming languages</a> out there.
+										The best part of this entire project is that we got to open-source it!
+										You can find it on <a href="https://github.com/victorkoenders/pixelflut">github.com/victorkoenders/pixelflut</a>.</p>
+							</div>
+						</div>
+					</td>
+					<td width="5%"></td>
+					<td valign="top">
+					<div class="entry">
+						<div class="image-header">
+							<img src="image/Discord-Logo-Black.png" alt="Social media integrations" />
+							<h3>Social media integrations</h3>
+						</div>
+						<div class="body">
+							<p>
+								<p>Trangar has made integrations with several social media applications over the years.
+									This includes <img src="/static/twitter.svg" alt="" /><a href="https://twitter.com">Twitter</a>,
+									<img src="/static/Discord-Logo-Black.png" alt="" /><a href="https://discord.com/">Discord</a>,
+									<img src="/static/Telegram-Logo.png" alt="" /> <a href="https://telegram.org/">Telegram</a> and
+									<a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>.</p>
+									<p>Integrations are commonly made to reach out to your customers, fans, friends or coworkers.
+									Another common use case is to collect information or follow accounts on from one platform and import that data. </p>
+
+							</p>
+						</div>
+					</div>
+					</td>
+					</tr>
+					</table>
+				</div>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>
